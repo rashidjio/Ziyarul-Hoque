@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1">
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<style>
+body{
+overflow-x: hidden;
+background: #2c2c2c;
+transition: 1s;
+height: 480vh;
+position:relative;
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+html{
+     overflow-x: hidden;
+    }
+
+.rotate-scale-up-diag-2{
+-webkit-animation:rotate-scale-up-diag-2 .7s linear both;
+animation:rotate-scale-up-diag-2 .7s linear both;
+height: 500px;
+background-position: center;
+width: 100%;
+transition: all 1s;
+background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+url(https://i.ibb.co/CJMDHkf/Stylish-Digital-Artworks-by-Alex-Maltsev.jpg);
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 68%);
+background-size: cover;
+position: absolute;
+}
+
+.rotate-scale-up-diag-2:hover {
+    transform: scale(1.2);
+}
+
+@-webkit-keyframes rotate-scale-up-diag-2{0%{-webkit-transform:scale(1) rotate3d(-1,1,0,0deg);transform:scale(1) rotate3d(-1,1,0,0deg)}50%{-webkit-transform:scale(2) rotate3d(-1,1,0,180deg);transform:scale(2) rotate3d(-1,1,0,180deg)}100%{-webkit-transform:scale(1) rotate3d(-1,1,0,360deg);transform:scale(1) rotate3d(-1,1,0,360deg)}}@keyframes rotate-scale-up-diag-2{0%{-webkit-transform:scale(1) rotate3d(-1,1,0,0deg);transform:scale(1) rotate3d(-1,1,0,0deg)}50%{-webkit-transform:scale(2) rotate3d(-1,1,0,180deg);transform:scale(2) rotate3d(-1,1,0,180deg)}100%{-webkit-transform:scale(1) rotate3d(-1,1,0,360deg);transform:scale(1) rotate3d(-1,1,0,360deg)}}
+
+.h2-1{
+                border: 0px solid #ffffff;
+                margin-top: 20px;
+             float: right;
+                color: #ffffff;
+                font-size: 40px;
+                padding-right: 20px;
+                }
+.p1-1{
+                margin-top: 20px;
+             float: right;
+             text-align: right;
+                color: #ffffff;
+                padding-right: 20px;
+                }
+.link1{
+                color: #ffffff;
+                }
+.me{
+                height: 500px;
+                width: 100%;
+                margin-top: 510px;
+                margin-left: auto;
+                margin-right: auto;
+                background: #cecece;
+                clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+                position: absolute;
+                z-index: -10;
+                margin-top: 300px;
+                }
+.myself{
+                position: relative;
+                z-index: 100;
+                margin: auto;
+                height: 400px;
+                width: 100%;
+                font-size: 20px;
+                margin-top: 400px;
+                }
+.h34{
+                mix-blend-mode: difference;
+                float: left;
+                margin-left: 10px;
+                }
+.p23{
+                float: left;
+                text-align: left;
+                margin-left: 10px;
+                color: black;
+                }
+ 
+.btn1{
+                padding: 14px 50px;
+                outline: none;
+                border: none;
+                background: #242424;
+                color: white;
+                }
+                
+.div12{
+                height: 270px;
+                width:97%;
+                background: transparent;
+                color: white;
+                }
+                
+.p56{
+                margin-left: 10px;
+                text-align: left;
+                font-size: 20px;
+                }
+.img1{
+                height: 110px;
+                width: 110px;
+                position: relative;
+                float: left;
+                margin-left: 36px;
+                margin-top: 70px;
+                z-index: 20;
+                border-radius: 50%;
+
+                }
+.sp1{
+                height: 70px;
+                width: 295px;
+                background: #9c9c9c;
+                margin-top: 170px;
+                border-radius: 5px 5px 5px 78px;
+                text-align: right;
+                }
+.p2345{
+                margin-right: 10px;
+                color: white;
+                margin-top: 10px;
+                float: right;
+                }
+.p234{
+                margin-right: 10px;
+                font-size: 15px;
+                float: right;
+                color: white;
+                }
+.half-circle {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    fill: none;
+    stroke: #484848;
+    stroke-width: 8;
+    margin-top: 168px;
+    margin-left: -325px;
+    stroke-linecap: round;
+}
+
+.circ1{
+             height: 300px;
+             width: 300px;
+             position: absolute;
+             z-index: 0;
+             margin-top: 690px;
+             margin-left: -250px;
+             border-radius: 50%;
+                }
+.circ2{
+             height: 150px;
+             width: 100%;
+             position: absolute;
+             z-index: 0;
+             margin-top: 10px;
+             bottom: 0;
+             margin-left: 0px;
+             border-radius: 0px;
+             background: #464646;
+                }
+.h2foot{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    color: white;
+    margin-top: 10px;
+    }
+
+.h2myskills{
+                font-family: 'Permanent Marker', cursive;
+                margin-left: 20px;
+                font-size: 55px;
+                float: left;
+                margin-top: 40px;
+                }
+.skill1{
+                height: 100px;
+                width: 100px;
+                margin-left: 10px;
+                margin-top: 40px;
+                background: transparent;
+                position: relative;
+                z-index: 85;
+                }
+.skill2{
+                height: 100px;
+                width: 100px;
+                margin-left: 10px;
+                margin-top: 40px;
+                background: transparent;
+                position: relative;
+                z-index: 85;
+                }
+.skill3{
+                height: 100px;
+                width: 100px;
+                margin-right: 10px;
+                float: right;
+                margin-top: 40px;
+                background: transparent;
+                position: relative;
+                z-index: 85;
+                }
+.skill4{
+                height: 100px;
+                width: 100px;
+                margin-right: -100px;
+                margin-top: 145px;
+                float: right;
+                background: transparent;
+                position: relative;
+                z-index: 85;
+                }
+.header-boy{
+    height: 180px;
+    position: absolute ;
+    z-index: 99;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+.svg{
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                position: absolute;
+                z-index: 99;
+                }
+.svgstore{
+                margin-top: 70px;
+                }
+.h2myfriend{
+                font-family: 'Permanent Marker', cursive;
+                font-size: 45px;
+                margin-left: 20px;
+                margin-right: auto;
+                position: absolute;
+                color: white;
+                margin-top: 250px;
+                }
+.h4onsl{
+                font-family: 'Permanent Marker', cursive;
+                color: white;
+                position: absolute;
+                margin-left: 20px;
+                margin-top: 290px;
+                }
+h4{
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 6px;
+    font-size: 20px;
+}
+
+.naam{
+    margin-top: 300px;
+}
+
+fieldset{
+    width: 95%;
+    border-top: 3px solid #c1c1c1;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    margin-top: 60px;
+}
+
+legend{
+    font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+}
+
+fieldset h3{
+    margin-top: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+fieldset button{
+    height: 40px;
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background: #c1c1c1;
+    font-family: 'Indie Flower', cursive;
+    color: #000000;
+    font-size: 20px;
+}
+</style>
+</head>
+<body id="mybody">
+<center>
+<div class="rotate-scale-up-diag-2">
+
+<h1 class="h2-1">My Portfolio</h1>
+<br><br><br><br><br>
+<p class="p1-1">Myself Zyarul Hoque
+<br>
+ A 12th standard <br>FRONTEND DEVELOPER<br>
+ Coding is my passion<br>
+ <br>
+ Get to know about me !<br>
+ <br>
+ <br><br>
+<a class="link1" href="#about"><button class="btn1">Who am I ?</button></a>
+ </p>
+
+</div>
+<br>
+<div class="me" id="me">
+
+<script>
+    
+    AOS.init();
+    
+    </script>
+
+</div>
+<div data-aos="fade-right"      data-aos-offset="300"      data-aos-easing="ease-in-sine"
+class="myself" id="about">
+<h2 class="h34">
+Hello World !
+</h2>
+<br><br>
+<p class="p23">
+Hey guys<br>
+I am having good time on this<br>
+platform.
+</p>
+<br>
+<a href="#">
+<img class="img1"  src="zyarul.png">
+<svg class="half-circle" viewBox="0 0 106 57">
+            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+          </svg>
+<div class="sp1" id="sp34">
+<p class="p2345"><b>Zyarul Hoque</b></p><br>
+<p class="p234">Student At Doloigaon</p>
+</div>
+</a>
+
+<div class="svgstore">
+<svg viewBox="0 0 500 500" class="svg"
+preserveAspectRatio="xMinYMin meet"> 
+
+<path d="M0, 100 C150, 200 350, 
+0 500, 100 L500, 00 L0, 0 Z" 
+
+style="stroke:none; fill: #cecece;"> 
+
+</path> 
+</svg> 
+</div>
+</div>
+
+<img src="https://i.ibb.co/PmWfmkb/kisspng-security-hacker-computer-security-certified-ethica-download-geek-app-hacking-apk-for-android.png" class="circ1"
+data-aos="fade-up-right">
+
+<div class="div12"
+data-aos="zoom-in-up" id="myself">
+<br><br>
+<br><br>
+<br>
+<p class="p56" id="pforme">
+Hello everyone !<br> Let me introduce myself to you.<br>
+ I am Zyarul Hoque, a 12th standard student.<br>
+  Yeah may some people find it amazing or may some not.<br>
+   Thank you everyone <br> for everything.
+</p>
+
+<h2 class="h2myskills">My Skills</h2>
+</div>
+<br><br>
+</center>
+
+<img class="header-boy" src="https://sololearnassets.azureedge.net/home-header-boy.png"
+data-aos="fade-up-left">
+
+<img class="skill1" src="https://img.icons8.com/color/452/html-5.png" data-aos="flip-left">
+<br>
+<img class="skill2" src="https://img.icons8.com/color/452/javascript.png" data-aos="flip-left">
+<br>
+<img class="skill3" src="https://img.icons8.com/color/452/css3.png" data-aos="flip-left">
+<br>
+<img class="skill4" src="https://img.icons8.com/color/344/python.png" data-aos="flip-left">
+<br><br>
+
+<h2 data-aos="zoom-out-right" class="h2myfriend">My Friends</h2><br><h4 class="h4onsl" data-aos="flip-right">On My Heart</h4>
+<br><br><br><br>
+
+<div class="naam" data-aos="fade-up">
+<h4>Rashid Ahmed</h4>
+<h4>Shaha Honey</h4>
+<h4>Ansarul Hoque</h4>
+
+<br>
+<h4>ETC</h4>
+</div>
+
+<center>
+<div class="detailed">
+    <fieldset>
+        <legend>My Learning</legend>
+        <h3>Web Development</h3>
+        <br><br><br>
+        <button>HTML</button>
+        <button>CSS</button>
+        <button>JavaScript</button>
+        <br>
+        <button>jQuery</button>
+        <br><br>  
+        <br><br>
+        <br><br>
+        <h3>Programming</h3>
+        <br><br><br>
+        <button>Java</button>
+        <button>Python</button>
+        <button>C++</button>
+        <br>
+        <button>C</button>
+    </fieldset>
+</div>
+
+ <br>
+  <img src="zyarul2.jpg" height="550px" width="420px">
+</center>
+<div class="circ2">
+  
+ 
+    <center>
+        <h2 class="h2foot">Thanks For Visiting</h2>
+        <div style="margin-top: 5px;">
+
+       <a href="https://wa.link/nkkkp3" ><img src="https://img.icons8.com/color/48/000000/whatsapp.png"/></a>
+       &nbsp;&nbsp;
+           <a href="https://www.facebook.com/profile.php?id=100055796018144"><img src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
+          </a>&nbsp;&nbsp;
+          <a href="https://instagram.com/xc_ziarul_0.2?utm_medium=copy_link"> <img src="https://img.icons8.com/color/48/000000/instagram.png"/></a>
+            &nbsp; &nbsp;<a href="tel:6002459335">  <img src="https://img.icons8.com/color/48/000000/phone.png"/>
+              </a>
+            </div>
+    </center>
+</div>
+
+</body>
+</html>
