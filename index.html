@@ -7,6 +7,11 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Rochester&display=swap" rel="stylesheet">
+    <script src=" https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 <style>
 body{
 overflow-x: hidden;
@@ -313,7 +318,10 @@ fieldset button{
 }
 </style>
 </head>
-<body id="mybody">
+<body id="mybody" onload="func()">
+  <audio id="music" loop="true">
+            <source src="ya.mp3" type="audio/mp3"/>
+        </audio>
 <center>
 <div class="rotate-scale-up-diag-2">
 
@@ -467,6 +475,30 @@ data-aos="fade-up-left">
             </div>
     
 </div>
+  
+  
+  <script>
+        var s = document.getElementById('loader')
+
+        function func() {
+            loader.style.display = 'none';
+        }
+    </script>
+    <script>
+        // Created by 🎸 Rashid 🎸
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            Swal.fire({
+                title: ' 🌸 Welcome 🌸 🌸 Made By Ziarul🌸 For You'
+            })
+        });
+        window.addEventListener("mouseover", play);
+        window.addEventListener("click", play);
+
+        function play() {
+            document.getElementById("music").play();
+        }
+    </script>
 <!--Start of Tawk.to Script-->
 
 <script type="text/javascript">
